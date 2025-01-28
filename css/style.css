@@ -1,0 +1,14 @@
+/*======================
+   01. Google fonts
+========================*/
+@font-face {
+    font-family: bromega-Regular;
+    src: url(../webfonts/bromega-Regular.ttf);
+}
+
+@font-face {
+    font-family: bromega-Bold;
+    src: url(../webfonts/bromega-Bold.ttf);
+}
+
+
