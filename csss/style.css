@@ -359,9 +359,7 @@ form p span{
 
 /* Responsive styling for smaller screens */
 @media (max-width: 600px) {
-    .who-we-are {
-        padding: 30px 10px;
-    }
+    
 
     .section-title {
         font-size: 1.5rem;
@@ -745,9 +743,7 @@ button:focus, input:focus, textarea:focus {
 
 /* Responsive styling for smaller screens */
 @media (max-width: 600px) {
-    .who-we-are {
-        padding: 30px 10px;
-    }
+    
 
     .section-title {
         font-size: 1.5rem;
