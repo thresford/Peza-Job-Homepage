@@ -554,6 +554,81 @@ button:focus, input:focus, textarea:focus {
 
 
 
+
+
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .owl-carousel .owl-item img {
+        width: 80%; /* Resize images slightly smaller on mobile */
+        border-radius: 15px; /* Reduce border radius */
+    }
+
+    .slider_carousel .owl-prev,
+    .slider_carousel .owl-next {
+        width: 30px; /* Reduce the size of the arrows */
+        height: 30px;
+        font-size: 20px; /* Smaller icon for the arrows */
+    }
+
+    .slider_carousel .owl-prev {
+        left: -30px; /* Adjust positioning */
+    }
+
+    .slider_carousel .owl-next {
+        right: -30px; /* Adjust positioning */
+    }
+
+    .card_box {
+        margin-top: 50px; /* Reduce top margin between cards */
+        margin-bottom: 20px; /* Reduce bottom margin */
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px; /* Reduce padding inside the cards */
+    }
+
+    .card_text h4 {
+        font-size: 16px; /* Reduce title font size for mobile */
+    }
+
+    .card_text p {
+        font-size: 12px; /* Adjust the paragraph font size */
+    }
+}
+
+/* Additional adjustment for small mobile screens */
+@media (max-width: 480px) {
+    .owl-carousel .owl-item img {
+        width: 90%; /* Make images slightly bigger */
+    }
+
+    .slider_carousel .owl-prev,
+    .slider_carousel .owl-next {
+        width: 28px;
+        height: 28px;
+        font-size: 18px; /* Further reduce the arrow size */
+    }
+
+    .card_text h4 {
+        font-size: 14px; /* Adjust the title size further */
+    }
+
+    .card_text p {
+        font-size: 11px; /* Adjust the paragraph size further */
+    }
+}
+
+
+
+
+/* Base styling for the carousel */
+.owl-carousel .owl-item img {
+    width: 100%; /* Make sure images take the full width */
+    border-radius: 20px; /* Slightly reduce the border radius for mobile */
+}
+
+
+
 /************************ search bar starts here **************************/
 
 .job-filter form {
