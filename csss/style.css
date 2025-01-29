@@ -560,7 +560,7 @@ button:focus, input:focus, textarea:focus {
 /* Mobile adjustments */
 @media (max-width: 767px) {
     .owl-carousel .owl-item img {
-        width: 80%; /* Resize images slightly smaller on mobile */
+        width: 50%; /* Resize images slightly smaller on mobile */
         border-radius: 15px; /* Reduce border radius */
     }
 
@@ -599,7 +599,7 @@ button:focus, input:focus, textarea:focus {
 /* Additional adjustment for small mobile screens */
 @media (max-width: 480px) {
     .owl-carousel .owl-item img {
-        width: 90%; /* Make images slightly bigger */
+        width: 70%; /* Make images slightly bigger */
     }
 
     .slider_carousel .owl-prev,
