@@ -609,6 +609,15 @@ button:focus, input:focus, textarea:focus {
         font-size: 18px; /* Further reduce the arrow size */
     }
 
+    .card_box {
+        margin-top: 50px; /* Reduce top margin between cards */
+        margin-bottom: 20px; /* Reduce bottom margin */
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px; /* Reduce padding inside the cards */
+    }
+
+
     .card_text h4 {
         font-size: 14px; /* Adjust the title size further */
     }
