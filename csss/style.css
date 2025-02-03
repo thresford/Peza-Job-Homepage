@@ -320,6 +320,7 @@ form p span{
     border-radius: 8px;
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: -40px;
     transition: all 0.3s ease;
 }
 
@@ -778,13 +779,16 @@ button:focus, input:focus, textarea:focus {
     font-size: 1.6rem;
     color: black;
     border: 2px solid #2c3e50;
-    padding: 10px;
+    padding: 10px 15px 10px 40px; /* Added left padding for the icon */
     border-radius: 30px;
     width: 100%;                /* Ensures the input stretches to fill the container */
     max-width: 500px;           /* Optional: Set a maximum width to avoid it getting too long */
     flex: 1;                    
-    height: 55px;
+    height: 45px;
+    background: url('https://img.icons8.com/ios/50/000000/search.png') no-repeat left center;
+    background-size: 30px 30px;  /* Adjust the size of the icon */
 }
+
 
 .home-filters {
     display: flex;              /* Use flexbox to align items in a row */
@@ -792,8 +796,10 @@ button:focus, input:focus, textarea:focus {
     justify-content: center;    /* Centers them horizontally */
     align-items: center;        /* Ensures vertical centering */
     margin-top: 15px;
+    margin-bottom: 25px;
     width: 100%;                 /* Adjust the width as needed */
 }
+
 
 /* Button Styling */
 .subscriber-btn {
@@ -802,13 +808,12 @@ button:focus, input:focus, textarea:focus {
     padding: 15px 30px;          /* Adjust the padding for a better size */
     border: none;
     border-radius: 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: center;
-    height: 55px;
+    height: 45px;
 }
 
 .subscriber-btn:hover {
@@ -820,7 +825,6 @@ button:focus, input:focus, textarea:focus {
 @media (max-width: 768px) {
     .home-filters {
         flex-direction: column;  /* Stack input and button vertically on small screens */
-       
     }
 
     .home-filters input.home-form-control,
@@ -832,8 +836,9 @@ button:focus, input:focus, textarea:focus {
         width: 100%;             /* Ensure container takes full width on small screens */
     }
 
-    .home-form-control{
+    .home-form-control {
         height: 55px;
     }
 }
+
 
