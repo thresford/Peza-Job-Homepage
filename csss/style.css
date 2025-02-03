@@ -106,13 +106,13 @@ section{
     background:url(../images/banner.png), rgba(0,0,0,.7) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-blend-mode: color;
 }
 
 .home-container .home {
     min-height: 80vh;
-    display: flex;
+    /* display: flex; */
     align-content: center;
     justify-content: center;
 }
@@ -165,7 +165,7 @@ form p span{
     text-transform: capitalize;
     color: white;
     position: relative;
-    top: 2rem; 
+    top: -5rem; 
 }
 
 .search-heading{
@@ -568,10 +568,12 @@ button:focus, input:focus, textarea:focus {
 
 
 .sub {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     font-size: 2.2rem;
     color: white;
     text-align: center;
+    top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -677,6 +679,9 @@ button:focus, input:focus, textarea:focus {
     .custom-form-control {
       width: 100%;
     }
+    .home-form-control{
+        height: 55px;
+    }
   }
 
   /* General Filters */
@@ -748,3 +753,76 @@ button:focus, input:focus, textarea:focus {
       padding: 15px;
     }
   }
+
+
+
+
+
+
+
+
+
+  /* form search */
+.home-form-control {
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid #2c3e50;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;                /* Ensures the input stretches to fill the container */
+    max-width: 500px;           /* Optional: Set a maximum width to avoid it getting too long */
+    flex: 1;                    
+    height: 55px;
+}
+
+.home-filters {
+    display: flex;              /* Use flexbox to align items in a row */
+    gap: 10px;                  /* Adds space between the input and button */
+    justify-content: center;    /* Centers them horizontally */
+    align-items: center;        /* Ensures vertical centering */
+    margin-top: 15px;
+    width: 100%;                 /* Adjust the width as needed */
+}
+
+/* Button Styling */
+.subscriber-btn {
+    background-color: #023047;
+    color: white;
+    padding: 15px 30px;          /* Adjust the padding for a better size */
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    height: 55px;
+}
+
+.subscriber-btn:hover {
+    background-color: #D1CF0A;  /* Change to your hover color */
+    color: black;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .home-filters {
+        flex-direction: column;  /* Stack input and button vertically on small screens */
+       
+    }
+
+    .home-filters input.home-form-control,
+    .subscriber-btn {
+        width: 100%;             /* Ensure both elements take full width on small screens */
+    }
+
+    .home-filters {
+        width: 100%;             /* Ensure container takes full width on small screens */
+    }
+
+    .home-form-control{
+        height: 55px;
+    }
+}
+
