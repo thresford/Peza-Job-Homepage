@@ -334,6 +334,17 @@ form p span{
     transition: color 0.3s ease;
 }
 
+/* job heading title */
+.job-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: color 0.3s
+     ease;
+}
+
 /* Styling for the description */
 .section-description {
     font-size: 2em;
@@ -786,8 +797,8 @@ button:focus, input:focus, textarea:focus {
 
 /* Button Styling */
 .subscriber-btn {
-    background-color: #023047;
-    color: white;
+    background-color: #D1CF0A;
+    color: black;
     padding: 15px 30px;          /* Adjust the padding for a better size */
     border: none;
     border-radius: 30px;
@@ -801,8 +812,8 @@ button:focus, input:focus, textarea:focus {
 }
 
 .subscriber-btn:hover {
-    background-color: #D1CF0A;  /* Change to your hover color */
-    color: black;
+    background-color: #023047;
+    color: white;
 }
 
 /* Media Query for Mobile */
