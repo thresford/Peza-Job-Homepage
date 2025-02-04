@@ -522,8 +522,9 @@ button:focus, input:focus, textarea:focus {
 
 /* Custom style for the subscribe button */
 .subscribe-btn {
-    background-color: #023047;
-    color: #fff; 
+    background-color: #D1CF0A; 
+    color: #000;
+    
     font-size: 1.6rem; 
     padding: 1rem 2rem; 
     border: none; 
@@ -537,8 +538,8 @@ button:focus, input:focus, textarea:focus {
 
 
 .subscribe {
-    background-color: #023047;
-    color: #fff; 
+    background-color: #D1CF0A; 
+    color: #000;
     font-size: 1.6rem; 
     padding: 1rem 2rem; 
     border: none; 
@@ -553,8 +554,8 @@ button:focus, input:focus, textarea:focus {
 
 /* Hover and Active state styles */
 .subscribe-btn:hover {
-    background-color: #D1CF0A; 
-    color: #000;
+    background-color: #023047;
+    color: #fff; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
 }
 
