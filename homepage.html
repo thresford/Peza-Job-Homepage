@@ -272,7 +272,7 @@
 
 
 <!-- Jobs Section -->
-<h2 class="job-title">Latest Job Vacancies</h2>
+<h2 class="job-title">Latest Jobs Vacancies</h2>
 <div class="job-listings">
     <div class="job-card">
       <div class="job-info">
@@ -417,49 +417,262 @@
         <div class="custom-filters">
           
           <!-- professional name -->
-            <input name="search" class="custom-form-control" type="search" placeholder="Professional Name :" required>
+            <!-- <input name="search" class="custom-form-control" type="search" placeholder="Professional Name :" required> -->
   
             <!-- skills or profession -->
-            <input name="search" class="custom-form-control" type="search" placeholder="Skills/Profession :" required>
+            <input name="search" class="custom-form-control" type="search" placeholder="Professional title or Skills :" required>
   
             <!-- Location -->
-            <input name="search-location" class="custom-form-control" type="search" placeholder="Location" required>
-            <select>
-                <option>Industry</option>
-                <option>Agriculture</option>
-                <option>Arts and Culture</option>
-                <option>Automotive</option>
-                <option>Construction</option>
-                <option>Consumer Goods</option>
-                <option>Creatives</option>
-                <option>Education</option>
-                <option>Energy and Utilities</option>
-                <option>Engineering</option>
-                <option>Environmental Services</option>
-                <option>Fashion and Design</option>
-                <option>Finance and Banking</option>
-                <option>Food and Beverage</option>
-                <option>Healthcare and Medical</option>
-                <option>Hospitality and Tourism</option>
-                <option>Information Technology</option>
-                <option>Insurance</option>
-                <option>Legal Services</option>
-                <option>Manufacturing</option>
-                <option>Media and Entertainment</option>
-                <option>Mining and Minerals</option>
-                <option>Nonprofit and Social Services</option>
-                <option>Pharmaceuticals</option>
-                <option>Professional Services</option>
-                <option>Real Estate</option>
-                <option>Research and Development</option>
-                <option>Retail</option>
-                <option>Security Services</option>
-                <option>Telecommunications</option>
-                <option>Transport and Logistics</option>
-                <option>Training Services</option>
-                <option>Utilities and Public Services</option>
-                <option>Wholesale and Distribution</option>
+            <!-- <input name="search-location" class="custom-form-control" type="search" placeholder="Location" required> -->
+            <select style="color: black; font-weight: bold;" name="country" class="contact-in-input" label="Choose your country" required id="id_country">
+                <option value="">Select Country</option>
+                <option value="RM">Remote</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AG">Antigua and Barbuda</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option> 
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia</option>
+                <option value="BQ">Bonaire, Sint Eustatius, and Saba</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BV">Bouvet Island</option>
+                <option value="BR">Brazil</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="BN">Brunei Darussalam</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="CV">Cabo Verde</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CD">Congo, Democratic Republic of the</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CW">Curaçao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="SZ">Eswatini</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FK">Falkland Islands</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="TF">French Southern Territories</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="VA">Holy See</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KR">Korea, Republic of</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia</option>
+                <option value="MD">Moldova</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="MH">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NU">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau</option>
+                <option value="PS">Palestine, State of</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PN">Pitcairn</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="RE">Réunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russian Federation</option>
+                <option value="RW">Rwanda</option>
+                <option value="BL">Saint Barthélemy</option>
+                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                <option value="KN">Saint Kitts and Nevis</option>
+                <option value="LC">Saint Lucia</option>
+                <option value="MF">Saint Martin (French part)</option>
+                <option value="PM">Saint Pierre and Miquelon</option>
+                <option value="VC">Saint Vincent and the Grenadines</option>
+                <option value="WS">Samoa</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome and Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SX">Sint Maarten (Dutch part)</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="SO">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="SS">South Sudan</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SZ">Sweden</option>
+                <option value="SE">Switzerland</option>
+                <option value="SY">Syrian Arab Republic</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania, United Republic of</option>
+                <option value="TH">Thailand</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad and Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="TC">Turks and Caicos Islands</option>
+                <option value="TV">Tuvalu</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States of America</option>
+                <option value="UM">United States Minor Outlying Islands</option>
+                <option value="VI">United States Virgin Islands</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="WF">Wallis and Futuna</option>
+                <option value="WS">Western Sahara</option>
+                <option value="YE">Yemen</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
             </select>
+  
+            <select name="city" class="contact-in-input" required id="id_city">
+              <option value="" selected>CITY/TOWNS</option>
+          </select>
+
+
         </div>
         <div class="custom-cta-button-container">
             <button class="subscribe-btn">Search Now</button>
@@ -567,7 +780,518 @@
 
 
 
+<!-- script for country and city -->
 
+
+
+
+
+<script>
+    const citiesByCountry = {
+    "RM": ["Remote"],
+
+    "AF": ["Kabul", "Herat", "Mazar-i-Sharif", "Kandahar", "Bamiyan", "Baghlan", "Ghazni", "Jalalabad", "Khost", "Laghman", "Logar", "Nangarhar", "Samangan", "Sar-e Pol", "Urozgan", "Zabul"],
+
+    "AX": ["Mariehamn", "Kastelholm", "Sund", "Eckerö", "Brändö", "Saltvik", "Jomala", "Hammarland", "Vårdö", "Finström", "Geta", "Lehmä", "Lumparland", "Mörby", "Sottunga"],
+
+    "AL": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier", "Korçë", "Sarandë", "Berat", "Elbasan", "Lushnjë", "Përmet", "Kavajë", "Shijak", "Bulqizë", "Divjakë"],
+
+    "DZ": ["Algiers", "Oran", "Constantine", "Annaba", "Blida", "Batna", "Béjaïa", "Tlemcen", "Sétif", "Biskra", "Tizi Ouzou", "Tipaza", "Ouargla", "El Oued", "Chlef"],
+
+    "AS": ["Pago Pago", "Aunu'u", "Ta'ū", "Ofu", "Olosega", "Manu'a", "Fiti'uta"],
+
+    "AD": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "La Massana", "Sant Julià de Lòria", "Canillo", "Ordino"],
+
+    "AO": ["Luanda", "Ndalatando", "Huambo", "Lobito", "Benguela", "Malanje", "Namibe", "Kuito", "Cabinda", "Sumbe"],
+
+    "AI": ["The Valley", "Blowing Point", "East End", "Sandy Ground", "Shoal Bay", "Meads Bay", "Rendezvous Bay"],
+
+    "AG": ["St. John's", "All Saints", "Liberta", "English Harbour", "Freetown", "Bowen Town", "Darkwood"],
+
+    "AR": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata", "Salta", "Tucumán", "Santa Fe", "Mar del Plata", "San Juan"],
+
+    "AM": ["Yerevan", "Gyumri", "Vagharshapat", "Vanadzor", "Hrazdan", "Artik", "Ararat", "Aparan", "Shiraz", "Kapan"],
+
+    "AW": ["Oranjestad", "San Nicolaas", "Paradera", "Noord", "Savaneta"],
+
+    "AU": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Hobart", "Darwin", "Gold Coast", "Newcastle"],
+
+    "AT": ["Vienna", "Graz", "Linz", "Salzburg", "Innsbruck", "Klagenfurt", "Villach", "Wels", "St. Pölten", "Bregenz"],
+
+    "AZ": ["Baku", "Ganja", "Sumqayit", "Lankaran", "Mingachevir", "Shirvan", "Quba", "Zagatala", "Khirdalan", "Naftalan"],
+
+    "BS": ["Nassau", "Freeport", "Abaco", "Andros", "Bimini", "Eleuthera", "Long Island", "Cat Island", "Exuma", "San Salvador"],
+
+    "BH": ["Manama", "Riffa", "Muharraq", "Sitra", "Hamad Town", "A'ali", "Isa Town", "Budaiya", "Busaiteen", "Malkiya"],
+
+    "BD": ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet", "Barisal", "Brahmanbaria", "Narayanganj", "Comilla", "Gazipur", "Netrakona", "Pabna", "Mymensingh", "Tangail", "Rangpur"],
+
+    "BB": ["Bridgetown", "Speightstown", "Oistins", "Holetown", "Bathsheba", "St. Lawrence Gap", "George Street", "Charnocks", "Six Roads", "Mullins"],
+
+    "BY": ["Minsk", "Gomel", "Mogilev", "Vitebsk", "Hrodna", "Brest", "Baranavichy", "Babruysk", "Zhlobin", "Orsha"],
+
+    "BE": ["Brussels", "Antwerp", "Ghent", "Bruges", "Namur", "Leuven", "Liège", "Mons", "La Louvière", "Tournai"],
+
+    "BZ": ["Belmopan", "Belize City", "San Ignacio", "Corozal Town", "Orange Walk Town", "Punta Gorda", "Dangriga", "Benque Viejo del Carmen", "Cayo", "Toledo"],
+
+    "BJ": ["Cotonou", "Porto-Novo", "Parakou", "Djougou", "Bohicon", "Natitingou", "Abomey", "Kandi", "Ouidah", "Lokossa"],
+
+    "BM": ["Hamilton", "St. George's", "Somerset Village", "Flatts Village", "Bailey's Bay"],
+
+    "BT": ["Thimphu", "Phuntsholing", "Paro", "Gelephu", "Samdrup Jongkhar"],
+
+    "BO": ["La Paz", "Santa Cruz de la Sierra", "Cochabamba", "Sucre", "Oruro", "Potosí"],
+
+    "BQ": ["Kralendijk", "Oranjestad", "The Bottom"],
+
+    "BA": ["Sarajevo", "Banja Luka", "Mostar", "Tuzla"],
+
+    "BW": ["Gaborone", "Francistown", "Maun", "Kasane"],
+
+    "BV": [],
+
+    "BR": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre"],
+
+    "IO": ["Diego Garcia"],
+
+    "BN": ["Bandar Seri Begawan", "Kuala Belait", "Seria", "Tutong", "Bangar"],
+
+    "BG": ["Sofia", "Plovdiv", "Varna", "Burgas", "Ruse", "Stara Zagora", "Pleven", "Sliven", "Dobrich", "Shumen"],
+
+    "BF": ["Ouagadougou", "Bobo-Dioulasso", "Koudougou", "Banfora", "Ouahigouya", "Pô", "Tenkodogo", "Fada N'gourma", "Kaya", "Dori"],
+
+    "BI": ["Gitega", "Bujumbura", "Ngozi", "Makamba", "Rumonge", "Muramvya", "Kayanza", "Karusi", "Cankuzo", "Ruyigi"],
+
+    "CV": ["Praia", "Mindelo", "Assomada", "Santa Maria", "Sal Rei", "Tarrafal", "São Filipe", "São Vicente", "Maio", "Paul"],
+
+    "KH": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampot", "Takeo", "Kandal", "Prey Veng", "Pursat"],
+
+    "CM": ["Yaoundé", "Douala", "Garoua", "Kumba", "Bamenda", "Bafoussam", "Maroua", "Bertoua", "Nkongsamba", "Ebolowa"],
+
+    "CA": ["Ottawa", "Toronto", "Vancouver", "Montreal", "Calgary", "Edmonton", "Quebec City", "Winnipeg", "Hamilton", "Kitchener"],
+
+    "KY": ["George Town", "West Bay", "Bodden Town", "North Side", "Little Cayman", "Cayman Brac"],
+
+    "CF": ["Bangui", "Bimbo", "Berbérati", "Bossangoa", "Carnot", "Bouar", "Mbaïki", "Sibut", "Kaga Bandoro", "Bangassou"],
+
+    "TD": ["N'Djamena", "Abéché", "Moundou", "Sarh", "Kelo", "Amdjarass", "Koumra", "Fada", "Doba", "Laï"],
+
+    "CL": ["Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta", "Temuco", "Rancagua", "Iquique", "Punta Arenas", "Talca"],
+
+    "CN": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu", "Wuhan", "Xi'an", "Hangzhou", "Nanjing", "Tianjin"],
+
+    "CX": ["Flying Fish Cove", "Poon Saan", "The Settlement"],
+
+    "CC": ["Home Island", "Horsburgh Island", "West Island"],
+
+    "CO": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena", "Bucaramanga", "Cúcuta", "Pereira", "Santa Marta", "Ibagué"],
+
+    "KM": ["Moroni", "Moutsamoudou", "Domoni", "Fomboni", "Bandamadou"],
+
+    "CG": ["Brazzaville", "Point-Noire", "Dolisie", "Nkayi", "Owando"],
+
+    "CD": ["Kinshasa", "Lubumbashi", "Mbuji-Mayi", "Kisangani", "Kananga"],
+
+    "CK": ["Aitutaki", "Rarotonga", "Mangaia", "Atiu", "Mitiaro"],
+
+    "CR": ["San José", "Alajuela", "Cartago", "Heredia", "Guanacaste"],
+
+    "HR": ["Zagreb", "Split", "Rijeka", "Osijek", "Pula"],
+
+    "CU": ["Havana", "Santiago de Cuba", "Camagüey", "Holguín", "Matanzas"],
+
+    "CW": ["Willemstad", "Batabano", "Tera Kora", "Santa Maria"],
+
+    "CY": ["Nicosia", "Limassol", "Larnaca", "Famagusta", "Paphos"],
+
+    "CZ": ["Prague", "Brno", "Plzeň", "Ostrava", "Liberec"],
+
+    "DK": ["Copenhagen", "Aarhus", "Odense", "Aalborg", "Esbjerg"],
+
+    "DJ": ["Djibouti City", "Ali Sabieh", "Tadjourah", "Dikhil", "Obock"],
+
+    "DM": ["Roseau", "Portsmouth", "Salisbury", "Marigot", "Grand Bay"],
+
+    "DO": ["Santo Domingo", "Santiago", "San Pedro de Macorís", "La Romana", "San Cristóbal"],
+
+    "EC": ["Quito", "Guayaquil", "Cuenca", "Machala", "Manta"],
+
+    "EG": ["Cairo", "Alexandria", "Giza", "Sharm El Sheikh", "Luxor"],
+
+    "SV": ["San Salvador", "Santa Ana", "San Miguel", "Sonsonate", "La Libertad"],
+
+    "GQ": ["Malabo", "Bata", "Ebebiyin", "Aconibe", "Evinayong"],
+
+    "ER": ["Asmara", "Keren", "Mendefera", "Dekemhare", "Massawa"],
+
+    "EE": ["Tallinn", "Tartu", "Narva", "Pärnu", "Kohtla-Järve"],
+
+    "SZ": ["Mbabane", "Manzini", "Lobamba", "Siteki", "Piggs Peak"],
+
+    "ET": ["Addis Ababa", "Gondar", "Mekelle", "Awasa", "Dire Dawa"],
+
+    "FK": ["Stanley", "Falkland Islands (Malvinas)"],
+
+    "FO": ["Tórshavn", "Klaksvik", "Vestmanna", "Runavik", "Sandavágur"],
+
+    "FJ": ["Suva", "Nadi", "Lautoka", "Ba", "Labasa"],
+
+    "FI": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu"],
+
+    "FR": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice"],
+
+    "GUF": ["Cayenne", "Saint-Laurent-du-Maroni", "Kourou", "Remire-Montjoly", "Matoury"],
+
+    "PF": ["Papeete", "Faaa", "Moorea", "Huahine", "Rangiroa"],
+
+    "TF": ["Port-aux-Français"],
+
+    "GA": ["Libreville", "Port-Gentil", "Franceville", "Moanda", "Oyem"],
+
+    "GM": ["Banjul", "Serekunda", "Brikama", "Gunjur", "Bakau"],
+
+    "GE": ["Tbilisi", "Kutaisi", "Batumi", "Zugdidi", "Rustavi"],
+
+    "DE": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt"],
+
+    "GH": ["Accra", "Kumasi", "Tamale", "Takoradi", "Cape Coast"],
+
+    "GI": ["Gibraltar"],
+
+    "GR": ["Athens", "Thessaloniki", "Patras", "Heraklion", "Larissa"],
+
+    "GL": ["Nuuk", "Ilulissat", "Sisimiut", "Qaqortoq", "Aasiaat"],
+
+    "GD": ["St. George's", "Grenville", "Gouyave", "Victoria", "Carriacou"],
+
+    "GP": ["Basse-Terre", "Pointe-à-Pitre", "Les Abymes", "Lamentin", "Saint-Martin"],
+
+    "GU": ["Hagåtña", "Dededo", "Tamuning", "Yigo", "Mangilao"],
+
+    "GT": ["Guatemala City", "Mixco", "Villa Nueva", "Quetzaltenango", "Escuintla"],
+
+    "GG": ["Saint Peter Port", "Saint Sampson", "Saint Martin", "Saint Andrew", "Castel"],
+
+    "GN": ["Conakry", "Nzérékoré", "Kankan", "Kindia", "Labé"],
+
+    "GW": ["Bissau", "Gudja", "Gabu", "Bafata", "Bolama"],
+
+    "GY": ["Georgetown", "Linden", "New Amsterdam", "Bartica", "Rosignol"],
+
+    "HT": ["Port-au-Prince", "Cap-Haïtien", "Les Cayes", "Jacmel", "Gonaïves"],
+
+    "HM": ["Heard Island"],
+
+    "VA": ["Vatican City"],
+
+    "HN": ["Tegucigalpa", "San Pedro Sula", "La Ceiba", "Choluteca", "Comayagua"],
+
+    "HK": ["Hong Kong Island", "Kowloon", "New Territories"],
+
+    "HU": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs"],
+
+    "IS": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri", "Selfoss"],
+
+    "IN": ["New Delhi", "Mumbai", "Bangalore", "Kolkata", "Chennai"],
+
+    "ID": ["Jakarta", "Surabaya", "Medan", "Bandung", "Semarang"],
+
+    "IR": ["Tehran", "Mashhad", "Isfahan", "Karaj", "Tabriz"],
+
+    "IQ": ["Baghdad", "Basra", "Erbil", "Mosul", "Sulaymaniyah"],
+
+    "IE": ["Dublin", "Cork", "Limerick", "Galway", "Waterford"],
+
+    "IL": ["Jerusalem", "Tel Aviv", "Haifa", "Rishon Lezion", "Petah Tikva"],
+
+    "IT": ["Rome", "Milan", "Naples", "Turin", "Palermo"],
+
+    "JM": ["Kingston", "Montego Bay", "Spanish Town", "Mandeville", "Ocho Rios"],
+
+    "JP": ["Tokyo", "Yokohama", "Osaka", "Nagoya", "Sapporo"],
+
+    "JE": ["Saint Helier", "Saint Brelade", "Grouville", "Saint Martin", "Saint Ouen"],
+
+    "JO": ["Amman", "Zarqa", "Irbid", "Aqaba", "Mafraq"],
+
+    "KZ": ["Almaty", "Astana", "Shymkent", "Karaganda", "Aktobe"],
+
+    "KE": ["Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kisumu"],
+
+    "KI": ["South Tarawa", "Betio", "Bikenibeu", "Bairiki"],
+
+    "KP": ["Pyongyang", "Hamhung", "Nampo", "Chongjin", "Wonsan"],
+
+    "KR": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon"],
+
+    "KW": ["Kuwait City", "Hawalli", "Salmiya", "Farwaniya", "Ahmadi"],
+
+    "KG": ["Bishkek", "Osh", "Jalal-Abad", "Karabalta", "Talas"],
+
+    "LA": ["Vientiane", "Luang Prabang", "Pakse", "Savannakhet", "Xam Neua"],
+
+    "LV": ["Riga", "Daugavpils", "Liepaja", "Jelgava", "Rēzekne"],
+
+    "LB": ["Beirut", "Tripoli", "Sidon", "Tyre", "Zahle"],
+
+    "LS": ["Maseru", "Teyateyaneng", "Leribe", "Hlotse", "Mohale's Hoek"],
+
+    "LR": ["Monrovia", "Gbarnga", "Buchanan", "Paynesville", "Kakata"],
+
+    "LY": ["Tripoli", "Benghazi", "Misrata", "Tobruk", "Sabha"],
+
+    "LI": ["Vaduz", "Schaan", "Balzers", "Eschen", "Mauren"],
+
+    "LT": ["Vilnius", "Kaunas", "Klaipeda", "Šiauliai", "Panevėžys"],
+
+    "LU": ["Luxembourg City"],
+
+    "MO": ["Macao"],
+
+    "MG": ["Antananarivo", "Toamasina", "Antsiranana", "Fianarantsoa", "Toliara"],
+
+    "MW": ["Lilongwe", "Blantyre", "Mzuzu", "Zomba", "Kasungu"],
+
+    "MY": ["Kuala Lumpur", "George Town", "Johor Bahru", "Ipoh", "Malacca"],
+
+    "MV": ["Malé", "Addu City", "Fuvahmulah", "Kulhudhuffushi"],
+
+    "ML": ["Bamako", "Sikasso", "Koutiala", "Mopti", "Tombouctou"],
+
+    "MT": ["Valletta", "Birkirkara", "Sliema", "Mosta", "San Gwann"],
+
+    "MH": ["Majuro", "Ebeye", "Laura", "Wotje", "Kwajalein"],
+
+    "MQ": ["Fort-de-France", "Le Lamentin", "Schoelcher", "Ducos", "Saint-Joseph"],
+
+    "MR": ["Nouakchott", "Nouadhibou", "Kaédi", "Kiffa", "Atar"],
+
+    "MU": ["Port Louis", "Beau Bassin-Rose Hill", "Curepipe", "Vacoas-Phoenix", "Quatre Bornes"],
+
+    "YT": ["Mamoudzou"],
+
+    "MX": ["Mexico City", "Guadalajara", "Monterrey", "Puebla", "Cancun"],
+
+    "FM": ["Palikir", "Weno", "Kolonia", "Tonoas", "Nukufetau"],
+
+    "MD": ["Chișinău", "Bălți", "Bender", "Tighina", "Rîbnița"],
+
+    "MC": ["Monaco"],
+
+    "MN": ["Ulaanbaatar", "Erdenet", "Darkhan", "Choibalsan", "Mörön"],
+
+    "ME": ["Podgorica", "Nikšić", "Herceg Novi", "Bijelo Polje", "Tivat"],
+
+    "MS": ["Plymouth", "Little Bay"],
+
+    "MA": ["Rabat", "Casablanca", "Marrakesh", "Fes", "Agadir"],
+
+    "MZ": ["Maputo", "Beira", "Nampula", "Nacala", "Tete"],
+
+    "MM": ["Naypyidaw", "Yangon", "Mandalay", "Mawlamyine", "Sittwe"],
+
+    "NA": ["Windhoek", "Swakopmund", "Walvis Bay", "Oshakati", "Omaruru"],
+
+    "NR": ["Yaren District"],
+
+    "NP": ["Kathmandu", "Pokhara", "Lalitpur", "Bhaktapur", "Biratnagar"],
+
+    "NL": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven"],
+
+    "NZ": ["Wellington", "Auckland", "Christchurch", "Hamilton", "Tauranga"],
+
+    "NI": ["Managua", "León", "Granada", "Masaya", "Estelí"],
+
+    "NE": ["Niamey", "Zinder", "Maradi", "Agadez", "Diffa"],
+
+    "NG": ["Lagos", "Abuja", "Port Harcourt", "Ibadan", "Kaduna"],
+
+    "NU": ["Alofi"],
+
+    "NFK": ["Kingston"],
+
+    "MP": ["Saipan", "Tinian", "Rota"],
+
+    "NO": ["Oslo", "Bergen", "Stavanger", "Drammen", "Kristiansand"],
+
+    "OM": ["Muscat", "Salalah", "Sohar", "Sur", "Nizwa"],
+
+    "PK": ["Islamabad", "Karachi", "Lahore", "Faisalabad", "Rawalpindi"],
+
+    "PW": ["Ngerulmud", "Melekeok", "Kedum"],
+
+    "PS": ["East Jerusalem", "Gaza City", "Ramallah", "Nablus", "Hebron"],
+
+    "PA": ["Panama City", "Colón", "David", "Santiago", "La Chorrera"],
+
+    "PG": ["Port Moresby", "Lae", "Mount Hagen", "Madang", "Rabaul"],
+
+    "PY": ["Asunción", "Ciudad del Este", "Luque", "San Lorenzo", "Encarnación"],
+
+    "PE": ["Lima", "Arequipa", "Trujillo", "Callao", "Cusco"],
+
+    "PH": ["Manila", "Quezon City", "Cebu City", "Davao City", "Zamboanga City"],
+
+    "PN": ["Adamstown"],
+
+    "PL": ["Warsaw", "Kraków", "Wrocław", "Łódź", "Poznań"],
+
+    "PT": ["Lisbon", "Porto", "Amadora", "Braga", "Coimbra"],
+
+    "PR": ["San Juan", "Ponce", "Bayamón", "Caguas", "Arecibo"],
+
+    "QA": ["Doha", "Al Rayyan", "Umm Salal Muhammad", "Al Wakrah", "Dukhan"],
+
+    "RE": ["Saint-Denis", "Saint-Paul", "Le Tampon", "Saint-Pierre", "Saint-Louis"],
+
+    "RO": ["Bucharest", "Cluj-Napoca", "Timișoara", "Iași", "Constanța"],
+
+    "RU": ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod"],
+
+    "RW": ["Kigali", "Butare", "Gitarama", "Musanze", "Rubavu"],
+
+    "BL": ["Gustavia"],
+
+    "SH": ["Jamestown"],
+
+    "KN": ["Basseterre", "Charlestown"],
+
+    "LC": ["Castries", "Vieux Fort"],
+
+    "MF": ["Marigot"],
+
+    "PM": ["Saint-Pierre", "Miquelon"],
+
+    "VC": ["Kingstown", "Bequia", "Union Island"],
+
+    "WS": ["Apia", "Safotu", "Falealupo"],
+
+    "SM": ["San Marino"],
+
+    "ST": ["São Tomé", "Principe"],
+
+    "SA": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam"],
+
+    "SN": ["Dakar", "Touba", "Pikine", "Kaolack", "Ziguinchor"],
+
+    "RS": ["Belgrade", "Novi Sad", "Niš", "Kragujevac", "Subotica"],
+
+    "SC": ["Victoria"],
+
+    "SL": ["Freetown", "Bo", "Kenema", "Makeni", "Koidu"],
+
+    "SG": ["Singapore"],
+
+    "SX": ["Philipsburg"],
+
+    "SK": ["Bratislava", "Košice", "Prešov", "Nitra", "Trnava"],
+
+    "SI": ["Ljubljana", "Maribor", "Celje", "Kranj", "Velenje"],
+
+    "SB": ["Honiara", "Gizo", "Auki", "Noro", "Munda"],
+
+    "SO": ["Mogadishu", "Hargeisa", "Kismayo", "Baidoa", "Bossaso"],
+
+    "ZA": ["Pretoria", "Cape Town", "Durban", "Johannesburg", "Port Elizabeth"],
+
+    "SS": ["Juba", "Wau", "Malakal", "Bentiu", "Yei"],
+
+    "ES": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"],
+
+    "LK": ["Sri Jayawardenepura Kotte", "Colombo", "Kandy", "Galle", "Negombo"],
+
+    "SD": ["Khartoum", "Omdurman", "Nyala", "Kassala", "Port Sudan"],
+
+    "SR": ["Paramaribo", "Nieuw Nickerie", "Lelydorp", "Domburg", "Brownsweg"],
+
+    "SJ": ["Longyearbyen", "Barentsburg"],
+
+    "SE": ["Stockholm", "Gothenburg", "Malmö", "Uppsala", "Linköping"],
+
+    "CH": ["Bern", "Zurich", "Geneva", "Basel", "Lausanne"],
+
+    "SY": ["Damascus", "Aleppo", "Homs", "Latakia", "Deir ez-Zor"],
+
+    "TJ": ["Dushanbe", "Khujand", "Kulob", "Bokhtar", "Isfara"],
+
+    "TZ": ["Dodoma", "Dar es Salaam", "Arusha", "Mwanza", "Mbeya"],
+
+    "TH": ["Bangkok", "Chiang Mai", "Phuket", "Nakhon Ratchasima", "Hat Yai"],
+
+    "TL": ["Dili", "Same", "Ainaro", "Oecusse", "Maliana"],
+
+    "TG": ["Lomé", "Sokodé", "Kpalimé", "Tchaoudjo", "Atakpamé"],
+
+    "TK": ["Nukunonu", "Atafu"],
+
+    "TO": ["Nuku'alofa", "Neiafu"],
+
+    "TT": ["Port of Spain", "San Fernando"],
+
+    "TN": ["Tunis", "Sfax", "Sousse", "Kairouan", "Gabès"],
+
+    "TR": ["Ankara", "Istanbul", "Izmir", "Bursa", "Antalya"],
+
+    "TM": ["Ashgabat", "Turkmenbashi", "Mary", "Dashoguz", "Balkanabat"],
+
+    "TC": ["Cockburn Town"],
+
+    "TV": ["Funafuti"],
+
+    "UG": ["Kampala", "Entebbe", "Mbarara", "Nansana", "Wakiso"],
+
+    "UA": ["Kyiv", "Kharkiv", "Odesa", "Dnipro", "Donetsk"],
+
+    "AE": ["Abu Dhabi", "Dubai", "Sharjah", "Ajman", "Ras Al Khaimah"],
+
+    "GB": ["London", "Birmingham", "Manchester", "Glasgow", "Liverpool"],
+
+    "US": ["Washington, D.C.", "New York City", "Los Angeles", "Chicago", "Houston"],
+
+    "UM": ["Wake Island", "Midway Atoll"],
+
+    "VI": ["Charlotte Amalie", "Christiansted"],
+
+    "UY": ["Montevideo", "Salto", "Paysandú", "Las Piedras", "Maldonado"],
+
+    "UZ": ["Tashkent", "Samarkand", "Bukhara", "Nukus", "Fergana"],
+
+    "VU": ["Port Vila", "Luganville"],
+
+    "WF": ["Mata-Utu"],
+
+    "EH": ["Laâyoune", "Dakhla"],
+
+    "YE": ["Sana'a", "Aden", "Taiz", "Hodeidah", "Ibb"],
+
+    "ZM": ["Lusaka", "Ndola", "Kitwe", "Kabwe", "Chingola", "Chibombo", "Chisamba", "Kapiri Mposhi", "Mkushi", "Mumbwa", "Nangoma", "Luano", "Serenje", "Chililabombwe", "Kalulushi", "Luanshya", "Lufwanyama", "Mpongwe", "Masaiti", "Mufulira", "Chadiza", "Chipata", "Katete", "Lundazi", "Mfuwe", "Nyimba", "Petauke", "Sinda", "Kawambwa", "Mansa", "Mwense", "Nchelenge", "Samfya", "Chongwe", "Chirundu", "Kafue", "Luangwa", "Chama", "Mpika", "Shiwangadu", "Chinsali", "Isoka", "Mafinga", "Nakonde", "Chilubi", "Kaputa", "Kasama", "Lubingu", "Mbala", "Mporokoso", "Mufumbwe", "Kabompo", "Kasempa", "Mwinilunga", "Solwezi", "Zambezi", "Choma", "Gwembe", "Kalomo", "Namwala", "Mazabuka", "Monze", "Pemba", "Livingstone", "Siavonga", "Sinazongwe", "Zimba", "Kalabo", "Kaoma", "Lukulu", "Mongu", "Senanga", "Sesheke", "Limulunga", "Nalolo", "Shangombo", "Mafinga", "Mitete" ],
+
+    "ZW": ["Harare", "Bulawayo", "Mutare", "Gweru", "Kwekwe", "Kadoma", "Masvingo", "Chitungwiza", "Marondera", "Beitbridge", "Gokwe", "Shurugwi", "Chegutu", "Macheke", "Zvishavane"],
+
+};
+
+function updateCities() {
+    const countrySelect = document.getElementById("id_country");
+    const citySelect = document.getElementById("id_city");
+    const selectedCountry = countrySelect.value;
+
+    // Clear previous options
+    citySelect.innerHTML = '<option value="" selected>City</option>';
+
+    // Populate cities based on selected country
+    if (selectedCountry && citiesByCountry[selectedCountry]) {
+        citiesByCountry[selectedCountry].forEach(city => {
+            const option = document.createElement("option");
+            option.value = city;
+            option.textContent = city;
+            citySelect.appendChild(option);
+        });
+    }
+}
+
+// Event listener for country change
+document.getElementById("id_country").addEventListener("change", updateCities);
+  </script>
 
 
 
