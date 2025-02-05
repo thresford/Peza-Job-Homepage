@@ -780,6 +780,100 @@
 
 
 
+<!-----------------what we offer ----------------------->
+<section id="our-services">
+    <!-- <h2 style="text-align: center;">Explore Our Services</h2> -->
+    <h2 class="job-title">Explore Our Services</h2>
+    <div class="main-container">
+        <!-- Left Section: Image Carousel -->
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="images/1.jpg" alt="Your Team">
+                <img src="images/2.jpg" alt="Happy Job Seekers">
+                <img src="images/3.jpg" alt="Successful Placements">
+                <img src="images/4.jpg" alt="Happy Job Seekers">
+                <img src="images/5.jpg" alt="Happy Job Seekers">
+                <img src="images/6.jpg" alt="Happy Job Seekers">
+                <img src="images/7.jpg" alt="Happy Job Seekers">
+                <img src="images/8.jpg" alt="Happy Job Seekers">
+            </div>
+        </div>
+
+        <!-- Right Section: Services List -->
+        <div class="offerings-wrapper">
+            <h2>Our Services Include:</h2>
+            <ul>
+                <li><strong> Recruitment & Staffing (Temporary & Permanent):</strong> We source, assess, and place qualified candidates for various roles, ensuring the right talent for your business needs.</li>
+                <li><strong>Training & Development Programs:</strong> We offer customized corporate training sessions, workshops, and seminars on a variety of topics including leadership, employee engagement, compliance, and skills development to enhance workforce performance.</li>
+                <li><strong>Job Vacancy Advertisement & Listing:</strong> We promote job openings on our platform and social media, ensuring visibility among qualified professionals to attract top talent.</li>
+                <li><strong>Career Clarity Coaching:</strong> Gain direction and confidence in your career choices with our personalized coaching, designed to help you identify the right path for long-term success and fulfillment.</li>
+                <li><strong>CV & Cover Letter Writing:</strong> We craft professional, ATS-friendly CVs and compelling cover letters that highlight skills, experience, and achievements effectively.</li>
+                <li><strong>Professional Branding & LinkedIn Optimization:</strong> We help professionals build strong personal brands by optimizing LinkedIn profiles, refining professional narratives, and showcasing expertise.</li>
+            </ul>
+        </div>
+
+        <!-- Learn More Button -->
+        <div class="discover-btn-container">
+            <a href="#" class="subscribe-btn">Learn More About Our Services</a>
+        </div>
+
+        
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- script for what we offer -->
+<script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.slider img');
+    const totalImages = images.length;
+
+    function showImage(index) {
+        const carousel = document.querySelector('.slider');
+        const offset = -index * 100; // Move carousel to the next image
+        carousel.style.transform = `translateX(${offset}%)`;
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % totalImages;
+        showImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        showImage(currentIndex);
+    }
+
+    // Automatically rotate images every 4 seconds
+    setInterval(nextImage, 4000);
+
+    // Add event listeners to arrows (optional)
+    document.querySelector('.slider-wrapper::after').addEventListener('click', nextImage);
+    document.querySelector('.slider-wrapper::before').addEventListener('click', prevImage);
+</script>
+
+
+
+
+
+
+
+
 <!-- script for country and city -->
 
 
