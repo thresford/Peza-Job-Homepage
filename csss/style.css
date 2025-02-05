@@ -524,7 +524,7 @@ button:focus, input:focus, textarea:focus {
 .subscribe-btn {
     background-color: #D1CF0A; 
     color: #000;
-    
+    text-decoration: none;
     font-size: 1.6rem; 
     padding: 1rem 2rem; 
     border: none; 
@@ -550,6 +550,7 @@ button:focus, input:focus, textarea:focus {
     font-weight: bold; 
     margin-top: 20px;
     margin-bottom: 30px;
+    text-decoration: none;
 }
 
 /* Hover and Active state styles */
@@ -557,6 +558,7 @@ button:focus, input:focus, textarea:focus {
     background-color: #023047;
     color: #fff; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    text-decoration: none;
 }
 
 .subscribe-btn:active {
@@ -843,3 +845,181 @@ button:focus, input:focus, textarea:focus {
 }
 
 
+
+
+
+
+
+
+
+
+/*********************************what we offer ********************************************/
+ /* Container */
+ .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+/* Image Carousel */
+.slider-wrapper {
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Services Section */
+.offerings-wrapper {
+    flex: 1;
+    max-width: 45%;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.offerings-wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.offerings-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.offerings-wrapper li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.offerings-wrapper li strong {
+    color: #D1CF0A;
+}
+
+.discover-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #D1CF0A;
+    color: black;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.discover-btn:hover {
+    background-color: #023047;
+    color: white;
+}
+
+/* Center the button */
+.discover-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Carousel Navigation (Optional) */
+.slider-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .slider-wrapper {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .offerings-wrapper {
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .offerings-wrapper h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .offerings-wrapper li {
+        font-size: 16px;
+    }
+
+    .discover-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 30px;
+        margin-top: -50px;
+    }
+
+    .slider-wrapper {
+        max-width: 100%;
+    }
+
+    .offerings-wrapper {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+}
