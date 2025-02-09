@@ -390,7 +390,7 @@
 </script>
 
 <div class="view-all-jobs">
-    <button class="subscribe">View More</button>
+    <button class="subscribe-btn">View More</button>
 </div>
 
 
@@ -899,6 +899,70 @@
         <div class="view-all-jobs">
             <a href="#" class="view-all-btn">View More</a>
         </div>
+
+
+
+
+        <!------------------------------ facebook posts ----------------------------->
+
+
+        <div class="container" style="margin-top:10px;margin-bottom:10px;">
+            <h2 class="text-center text-info" style="margin-bottom: 20px;">Our Facebook feed</h2>
+    
+        <!------------------------------------ podcasts ---------------------------->
+    <div class="sectione">
+      <h2 class="job-title">Latest Podcasts</h2>
+      <div class="featured-podcasts" id="podcast-container">
+          {% if podcasts.count > 0 %}
+          
+          <div class="podcast-card" onclick="playPodcast('audio2.mp3')">
+            <img src="images/peza.jpg" alt="Podcast">
+            <div class="play-button">
+                <i class="fas fa-play-circle"></i>
+            </div>
+            <h3>Peza</h3>
+            <p>Learn effective job searching techniques to land your dream job in a competitive market.</p>
+            <strong>Guest: </strong>
+        </div>
+        {% else %}
+        <p>No podcasts uploaded!</p>
+          {% endif %}
+    
+      </div>
+      </div>
+
+
+
+      <div class="view-all-jobs">
+        <a href="#" class="view-all-btn">View More Podcast</a>
+    </div>
+    
+      <!-- <h2 class="text-center text-info" style="margin-bottom: 20px;"> 
+          <a style="text-decoration: none;" href="/podcast">View More Podcast</a>
+      </h2>
+    </div>-->
+    
+
+    
+    
+    
+    <script>
+      function playPodcast(audioFile) {
+          var audioPlayer = new Audio(audioFile);
+          audioPlayer.play();
+          document.getElementById('play-pause-icon').classList.remove('fa-play-circle');
+          document.getElementById('play-pause-icon').classList.add('fa-pause-circle');
+      }
+    
+      function playpauseTrack() {
+          var player = document.querySelector('audio');
+          if (player.paused) {
+              player.play();
+          } else {
+              player.pause();
+          }
+      }
+    </script>
 
 
 
