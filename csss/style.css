@@ -1124,6 +1124,7 @@ button:focus, input:focus, textarea:focus {
 .view-all-btn {
     background-color: #d1cf0a;
     margin-top: 10px;
+    margin-bottom: 30px;
     color: black;
     border: none;
     padding: 10px 50px;
