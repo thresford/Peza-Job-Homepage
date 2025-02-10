@@ -341,7 +341,7 @@ form p span{
     font-size: 3rem;
     font-weight: bold;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-align: center;
     transition: color 0.3s
      ease;
@@ -759,6 +759,7 @@ button:focus, input:focus, textarea:focus {
 
     .custom-filters select {
       width: 100%;
+      padding: 10px;
     }
 
     .custom-cta-button-container {
@@ -835,7 +836,8 @@ button:focus, input:focus, textarea:focus {
 
     .home-filters input.home-form-control,
     .subscriber-btn {
-        width: 100%;             /* Ensure both elements take full width on small screens */
+        width: 100%;
+        font-size: 1.5rem;
     }
 
     .home-filters {
@@ -939,6 +941,7 @@ button:focus, input:focus, textarea:focus {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: -25px;
     width: 100%;
 }
 
@@ -1151,6 +1154,7 @@ button:focus, input:focus, textarea:focus {
         padding: 40px 10px;
         max-width: 1200px;
         margin: 0 auto;
+        margin-bottom: -40px;
     }
     
     .sectione h2 {
