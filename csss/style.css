@@ -179,11 +179,7 @@ form p span{
 
 /* ********************************************jobs section************************************ */
 
-
-
-
 /* view all jobs */
-/* Centering the button using flexbox */
 .view-all-jobs {
     display: flex;
     justify-content: center;
@@ -231,10 +227,10 @@ form p span{
     padding: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    border: 2px solid #d1cf0a; /* Yellow border */
+    border: 2px solid #d1cf0a; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align everything to the left */
+    align-items: flex-start; 
   }
   
   .job-card:hover {
@@ -268,15 +264,15 @@ form p span{
   
   .job-info span {
     font-size: 2rem;
-    color: #d1cf0a; /* Yellow for job info highlights */
+    color: #d1cf0a; 
     font-weight: 600;
   }
   
   /* Apply Button */
   .apply-btn {
     padding: 5px 10px;
-    background-color: #d1cf0a; /* Yellow button */
-    color: #23273A; /* Dark text on button */
+    background-color: #d1cf0a;
+    color: #23273A; 
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -287,7 +283,7 @@ form p span{
   }
   
   .apply-btn:hover {
-    background-color: #2c3e50; /* Dark hover background */
+    background-color: #2c3e50; 
     color: white;
     font-weight: bold;
   }
@@ -306,11 +302,6 @@ form p span{
   .fa-clock {
     color: black;
   }
-
-
-
-
-
 
 
 /*********************heading*********************** */
@@ -581,7 +572,7 @@ button:focus, input:focus, textarea:focus {
    margin-bottom: 25px;
 }
 
-/* You can apply this class to the parent element of the button */
+
 
 
 .sub {
@@ -601,15 +592,15 @@ button:focus, input:focus, textarea:focus {
 /* Mobile adjustments */
 @media (max-width: 767px) {
     .owl-carousel .owl-item img {
-        width: 80%; /* Resize images slightly smaller on mobile */
-        border-radius: 15px; /* Reduce border radius */
+        width: 80%; 
+        border-radius: 15px; 
     }
 
     .slider_carousel .owl-prev,
     .slider_carousel .owl-next {
-        width: 0px; /* Reduce the size of the arrows */
+        width: 0px; 
         height: 0px;
-        font-size: 0px; /* Smaller icon for the arrows */
+        font-size: 0px; 
     }
 
     .head_para{
@@ -617,34 +608,34 @@ button:focus, input:focus, textarea:focus {
     }
 
     .slider_carousel .owl-prev {
-        left: 0px; /* Adjust positioning */
+        left: 0px; 
     }
 
     .slider_carousel .owl-next {
-        right: 0px; /* Adjust positioning */
+        right: 0px; 
     }
 
     .card_box {
-        margin-top: 50px; /* Reduce top margin between cards */
-        margin-bottom: 20px; /* Reduce bottom margin */
+        margin-top: 50px; 
+        margin-bottom: 20px;
         padding: 10px;
         margin-left: 50px;
-        margin-right: 50px; /* Reduce padding inside the cards */
+        margin-right: 50px; 
     }
 
     .card_text h4 {
-        font-size: 16px; /* Reduce title font size for mobile */
+        font-size: 16px;
     }
 
     .card_text p {
-        font-size: 12px; /* Adjust the paragraph font size */
+        font-size: 12px; 
     }
 }
 
 /* Additional adjustment for small mobile screens */
 @media (max-width: 480px) {
     .owl-carousel .owl-item img {
-        width: 90%; /* Make images slightly bigger */
+        width: 90%; 
     }
 
     .head_para{
@@ -655,29 +646,24 @@ button:focus, input:focus, textarea:focus {
     .slider_carousel .owl-next {
         width: 28px;
         height: 28px;
-        font-size: 18px; /* Further reduce the arrow size */
+        font-size: 18px;
     }
 
     .card_text h4 {
-        font-size: 14px; /* Adjust the title size further */
+        font-size: 14px; 
     }
 
     .card_text p {
-        font-size: 11px; /* Adjust the paragraph size further */
+        font-size: 11px; 
     }
 }
-
-
 
 
 /* Base styling for the carousel */
 .owl-carousel .owl-item img {
-    width: 100%; /* Make sure images take the full width */
-    border-radius: 20px; /* Slightly reduce the border radius for mobile */
+    width: 100%; 
+    border-radius: 20px; 
 }
-
-
-
 
 
 
@@ -689,7 +675,7 @@ button:focus, input:focus, textarea:focus {
     border: 2px solid #2c3e50;
     padding: 10px;
     border-radius: 8px;
-    width: 100%; /* Ensures full width on larger screens */
+    width: 100%; 
   }
 
   @media (max-width: 600px) {
@@ -720,7 +706,7 @@ button:focus, input:focus, textarea:focus {
     border: 2px solid #2c3e50;
     border-radius: 8px;
     font-size: 1.3rem;
-    width: 100%; /* Makes the select box full width */
+    width: 100%; 
   }
 
   /* Button Container */
@@ -745,7 +731,7 @@ button:focus, input:focus, textarea:focus {
   }
 
   .custom-cta-button:hover {
-    /*background-color: #ff5722;  Change to your hover color */
+    /*background-color: #ff5722;  */
     color: black;
     transform: translateY(-5px);
   }
@@ -774,37 +760,30 @@ button:focus, input:focus, textarea:focus {
   }
 
 
-
-
-
-
-
-
-
   /* form search */
 .home-form-control {
     font-size: 1.6rem;
     color: black;
     border: 2px solid #2c3e50;
-    padding: 10px 15px 10px 40px; /* Added left padding for the icon */
+    padding: 10px 15px 10px 40px; 
     border-radius: 30px;
-    width: 100%;                /* Ensures the input stretches to fill the container */
-    max-width: 500px;           /* Optional: Set a maximum width to avoid it getting too long */
+    width: 100%;                
+    max-width: 500px;           
     flex: 1;                    
     height: 45px;
     background: url('https://img.icons8.com/ios/50/000000/search.png') no-repeat left center;
-    background-size: 30px 30px;  /* Adjust the size of the icon */
+    background-size: 30px 30px; 
 }
 
 
 .home-filters {
-    display: flex;              /* Use flexbox to align items in a row */
-    gap: 10px;                  /* Adds space between the input and button */
-    justify-content: center;    /* Centers them horizontally */
-    align-items: center;        /* Ensures vertical centering */
+    display: flex;             
+    gap: 10px;                  
+    justify-content: center;  
+    align-items: center;        
     margin-top: 15px;
     margin-bottom: 25px;
-    width: 100%;                 /* Adjust the width as needed */
+    width: 100%;                
 }
 
 
@@ -812,7 +791,7 @@ button:focus, input:focus, textarea:focus {
 .subscriber-btn {
     background-color: #D1CF0A;
     color: black;
-    padding: 15px 30px;          /* Adjust the padding for a better size */
+    padding: 15px 30px;         
     border: none;
     border-radius: 30px;
     font-size: 1.2rem;
@@ -831,7 +810,7 @@ button:focus, input:focus, textarea:focus {
 /* Media Query for Mobile */
 @media (max-width: 768px) {
     .home-filters {
-        flex-direction: column;  /* Stack input and button vertically on small screens */
+        flex-direction: column;  
     }
 
     .home-filters input.home-form-control,
@@ -841,21 +820,13 @@ button:focus, input:focus, textarea:focus {
     }
 
     .home-filters {
-        width: 100%;             /* Ensure container takes full width on small screens */
+        width: 100%;            
     }
 
     .home-form-control {
         height: 55px;
     }
 }
-
-
-
-
-
-
-
-
 
 
 /*********************************what we offer ********************************************/
@@ -1032,20 +1003,7 @@ button:focus, input:focus, textarea:focus {
 }
 
 
-
-
-
-
-
-
-
-
 /********************************** blog section starts here *******************************/
-
-
-
-
-
 /* Blog Cards Layout */
 .blog-listings {
     display: grid;
