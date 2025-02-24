@@ -160,6 +160,18 @@ section{
     
     }
 }
+@media (max-width:450px){
+    .home-banner-container {
+        height: 40vh;
+    }
+}
+@media (max-width:991px){
+    .home-banner-container {
+        height: 40vh;
+    
+    }
+}
+
 
 
 
