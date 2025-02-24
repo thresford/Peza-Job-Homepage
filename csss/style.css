@@ -155,7 +155,7 @@ section{
     }
 
     .home-banner-slide img {
-        max-height: 50vh;
+        max-height: 35vh;
         object-fit: contain;
     }
 }
@@ -166,7 +166,7 @@ section{
     }
 
     .home-banner-slide img {
-        max-height: 50vh;
+        max-height: 35vh;
         object-fit: contain;
     }
 }
