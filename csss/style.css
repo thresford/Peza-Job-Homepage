@@ -156,9 +156,7 @@ section{
 
 @media (max-width:768px){
     .home-banner-container {
-        position: relative;
-       
-        height: 100vh;
+        height: 40vh;
     
     }
 }
