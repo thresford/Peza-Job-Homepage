@@ -160,6 +160,17 @@ section{
     }
 }
 
+@media (max-width: 600px) { /* Small phones */
+    .home-banner-container {
+        max-height: 50vh;
+    }
+
+    .home-banner-slide img {
+        max-height: 50vh;
+        object-fit: contain;
+    }
+}
+
 
 
 
