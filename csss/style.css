@@ -146,7 +146,7 @@ section{
 
 @media (max-width:768px){
 .home-banner-slide img {
-    height: 35vh;
+    height: 20vh;
     object-fit: cover;
     }
     
@@ -162,11 +162,7 @@ section{
     }
 }
 
-@media (max-width:768px){
-    .who-we-are {
-        margin-top: -40;
-    }
-}
+
 
 
 
@@ -357,12 +353,12 @@ form p span{
 /*********************heading*********************** */
 /* General styling for the section */
 .who-we-are {
-    /* background-color: #f9f9f9; */
     padding: 40px 20px;
     border-radius: 8px;
     max-width: 1000px;
     margin: 0 auto;
     margin-bottom: -40px;
+    margin-top: -40;
     transition: all 0.3s ease;
 }
 
