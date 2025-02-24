@@ -1402,31 +1402,26 @@ document.addEventListener('click', () => {
 
 
 
-<!-- script for homepage banner  -->
-
 <script>
-    function startSlider(sliderClass) {
-        let slides = document.querySelectorAll("." + sliderClass + " .home-banner-slide");
+    function startSlider() {
+        let slides = document.querySelectorAll(".home-banner-slide");
         let index = 0;
 
         function showSlides() {
             slides.forEach(slide => slide.style.opacity = "0");
-            index++;
-            if (index > slides.length) { index = 1; }
-            slides[index - 1].style.opacity = "1";
+            slides[index].style.opacity = "1";
+            index = (index + 1) % slides.length;
             setTimeout(showSlides, 4000);
         }
-        showSlides();
+
+        if (slides.length > 0) {
+            showSlides();
+        }
     }
 
-    document.addEventListener("DOMContentLoaded", function() {
-        if (window.innerWidth <= 768) {
-            startSlider("mobile-slider");
-        } else {
-            startSlider("desktop-slider");
-        }
-    });
+    document.addEventListener("DOMContentLoaded", startSlider);
 </script>
+
 
 </body>
 </html>
