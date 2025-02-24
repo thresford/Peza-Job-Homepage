@@ -172,6 +172,13 @@ section{
     }
 }
 
+@media (max-width: 600px){
+    .home-banner-container {
+        height: 40vh;
+    }
+}
+
+
 
 
 
