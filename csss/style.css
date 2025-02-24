@@ -146,7 +146,7 @@ section{
 
 @media (max-width:768px){
 .home-banner-slide img {
-    width: 85vh;
+    width: 100vh;
     height: 40vh;
     object-fit: cover;
     }
