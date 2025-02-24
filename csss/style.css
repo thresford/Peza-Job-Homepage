@@ -149,6 +149,23 @@ section{
     height: 35vh;
     object-fit: cover;
     }
+    
+}
+
+
+@media (max-width:768px){
+    .home-banner-container {
+        position: relative;
+       
+        height: 40vh;
+    
+    }
+}
+
+@media (max-width:768px){
+    .who-we-are {
+        margin-top: -40;
+    }
 }
 
 
