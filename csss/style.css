@@ -149,11 +149,11 @@ section{
 
 @media (max-width: 768px) { /* Mobile screens */
     .home-banner-container {
-        height: 50vh;
+        height: 30vh;
     }
 
     .home-banner-slide img {
-        height: 50vh;
+        height: 30vh;
     }
 }
 
