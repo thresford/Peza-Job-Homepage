@@ -159,17 +159,17 @@ section{
 
 @media (max-width: 480px) { /* Small phones */
     .home-banner-container {
-        height: 40vh;
+        height: 35vh;
     }
 
     .home-banner-slide img {
-        height: 40vh;
+        height: 35vh;
     }
 }
 
 @media (max-width: 600px){
     .home-banner-container {
-        height: 40vh;
+        height: 35vh;
     }
 }
 
