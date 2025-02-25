@@ -399,6 +399,10 @@ form p span{
 
     .section-description {
         font-size: 2rem;
+        padding: 8px;
+    }
+    .job-title{
+        padding: 8px;
     }
 }
 
@@ -630,6 +634,7 @@ button:focus, input:focus, textarea:focus {
 
     .head_para{
         font-size: 20px;
+        padding: 8px;
     }
 
     .slider_carousel .owl-prev {
@@ -1042,7 +1047,7 @@ button:focus, input:focus, textarea:focus {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
-    padding: 1px;
+    padding: 10px;
     max-width: 1300px;
     margin: 0 auto;
 }
