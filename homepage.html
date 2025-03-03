@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="csss/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- all css here -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" /> 
-    <title>home</title>
+    <title>homepage</title>
 </head>
 
 <body>
@@ -19,17 +21,32 @@
    <!-- Image Carousel (Banner) -->
 <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="8000">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="Pezajob Web designs/1.jpg" class="d-block w-100" alt="First Image">
+        <!-- Mobile Images -->
+        <div class="carousel-item active d-block d-md-none">
+            <img src="Mobile web designs/1.jpg" class="d-block w-100" alt="First Mobile Image">
         </div>
-        <div class="carousel-item">
-            <img src="Pezajob Web designs/2.jpg" class="d-block w-100" alt="Second Image">
+        <div class="carousel-item d-block d-md-none">
+            <img src="Mobile web designs/2.jpg" class="d-block w-100" alt="Second Mobile Image">
         </div>
-        <div class="carousel-item">
-            <img src="Pezajob Web designs/3.jpg" class="d-block w-100" alt="Third Image">
+        <div class="carousel-item d-block d-md-none">
+            <img src="Mobile web designs/3.jpg" class="d-block w-100" alt="Third Mobile Image">
         </div>
-        <div class="carousel-item">
-            <img src="Pezajob Web designs/4.jpg" class="d-block w-100" alt="Fourth Image">
+        <div class="carousel-item d-block d-md-none">
+            <img src="Mobile web designs/4.jpg" class="d-block w-100" alt="Fourth Mobile Image">
+        </div>
+        
+        <!-- Desktop Images -->
+        <div class="carousel-item active d-none d-md-block">
+            <img src="Pezajob Web designs/1.jpg" class="d-block w-100" alt="First Desktop Image">
+        </div>
+        <div class="carousel-item d-none d-md-block">
+            <img src="Pezajob Web designs/2.jpg" class="d-block w-100" alt="Second Desktop Image">
+        </div>
+        <div class="carousel-item d-none d-md-block">
+            <img src="Pezajob Web designs/3.jpg" class="d-block w-100" alt="Third Desktop Image">
+        </div>
+        <div class="carousel-item d-none d-md-block">
+            <img src="Pezajob Web designs/4.jpg" class="d-block w-100" alt="Fourth Desktop Image">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -44,10 +61,7 @@
 
 
 
-
-
-
-     <section class="who-we-are">
+    <section class="who-we-are">
         <h2 class="section-title">Who We Are</h2>
         <p class="section-description">
             At Peza Job Zambia, we empower individuals and businesses by bridging the gap between job seekers and employers. 
@@ -653,13 +667,7 @@
         <a href="#" class="view-all-btn">View More Podcast</a>
     </div>
     
-      <!-- <h2 class="text-center text-info" style="margin-bottom: 20px;"> 
-          <a style="text-decoration: none;" href="/podcast">View More Podcast</a>
-      </h2>
-    </div>-->
-
-
-
+     
     <!----------------------join us section --------------->
 
     
@@ -673,82 +681,7 @@
             <a href="#employer-sign-up" class="view-all-btn">Sign Up as an Employer</a>
           </div>
         </div>
-      
 
-      
-
-
-      <style>
-        /* Section Styling */
-.join-us-today-container {
-  padding: 60px 20px;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-.join-us-today-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.join-us-title {
-  font-size: 2.2rem;
-  color: #333;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.join-us-description {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 30px;
-}
-
-/* Button Styling */
-.join-us-buttons {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  gap: 20px;
-}
-
-.join-us-job-seeker-btn,
-.join-us-employer-btn {
-  padding: 15px 30px;
-  font-size: 1.5rem;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
-
-.join-us-job-seeker-btn {
-  background-color:  #D1CF0A;
-  color: black;
-  font-weight: bold;
-}
-
-.join-us-job-seeker-btn:hover {
-  background-color: #2c3e50;
-  color: white;
-}
-
-.join-us-employer-btn {
-  background-color: #D1CF0A;
-  color: black;
-  font-weight: bold;
-}
-
-.join-us-employer-btn:hover {
-  background-color: #2c3e50;
-  color: white;
-}
-
-      </style>
-    
-
-    
-    
     
     <script>
       function playPodcast(audioFile) {
@@ -1326,10 +1259,10 @@ document.getElementById("id_country").addEventListener("change", updateCities);
                 loop: true,
                 margin: 30,
                 stagePadding: 2,
-                autoplay: true,                     // Enable autoplay
-                autoplayTimeout: 2500,              // Set the interval to 6000ms (6 seconds) for slower sliding
-                autoplayHoverPause: true,           // Pause autoplay when mouse hovers over carousel
-                smartSpeed: 1000,                   // Set the speed of each transition (1000ms = 1 second)
+                autoplay: true,                     
+                autoplayTimeout: 2500,              
+                autoplayHoverPause: true,          
+                smartSpeed: 1000,                 
                 nav: true,
                 navText: ["<i class='far fa-arrow-alt-circle-left arrow-size'></i>","<i class='far fa-arrow-alt-circle-right arrow-size'></i>"],
                 responsive: {
@@ -1353,7 +1286,7 @@ document.getElementById("id_country").addEventListener("change", updateCities);
 <script>
      // Function to toggle the dropdown and close others
 function toggleDropdown(event) {
-    event.stopPropagation(); // Prevent the click from propagating to the document listener
+    event.stopPropagation(); 
 
     // Get all dropdown contents
     const dropdowns = document.querySelectorAll('.dropdown-content');
